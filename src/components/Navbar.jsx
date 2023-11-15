@@ -6,7 +6,7 @@ const Navbar = () => {
             <h1 className='w-full text-3xl font-bold text-[#6495ED]'>Contacts.</h1>
             <ul className='flex'>
                 <a href={'/'} className='p-4'>Home</a>
-                <a href={'about'} className='p-4'>About</a>
+                <a href={'/'} className='p-4'>About</a>
             </ul>
         </div>
     );

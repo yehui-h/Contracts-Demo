@@ -33,7 +33,7 @@ function ContactCard({contact}) {
         return `${company.name}`;
     };
     return (
-        <div className="p-4 border rounded shadow">
+        <div className="p-4 border rounded shadow bg-gray-50">
             <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">{contact.name}</h5>
             <h6
                 className='mb-0 text-base font-medium leading-tight text-neutral-500 dark:text-neutral-50'>{formatCompany(contact.company)}</h6>
