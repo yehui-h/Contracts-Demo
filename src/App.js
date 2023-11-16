@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             <Navbar/>
             <div
-                className='max-w-[800px] mt-[-0px] w-full mx-auto text-center flex flex-col justify-center items-center'>
+                className='max-w-[800px] mt-[-0px] w-full mx-auto text-center flex flex-col justify-center items-center mb-10'>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {contacts.map(contact => (
                         <ContactCard key={contact.id} contact={contact}/>
